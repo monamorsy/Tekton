@@ -32,6 +32,6 @@ spec:
       containers:
       - name: app
         # Because kube-registry-proxy is present localhost access is via http instead of https
-        image: icr.io/my_secand_namespace/my_repo:app:0.0.1
+        image: "icr.io/my_secand_namespace/my_repo:app:0.0.1"
         ports:
         - containerPort: 8080
