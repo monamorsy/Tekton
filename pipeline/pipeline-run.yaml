@@ -15,7 +15,7 @@ spec:
     - name: pathToYamlFile
       value: "deploy.yaml"
     - name: "imageUrl"
-      value: "icr.io/my_secand_namespace/my_repo"
+      value: "region/namespace/my_repo"
     - name: "imageTag"
       value: "0.0.1"
   serviceAccountName: service-account
